@@ -336,10 +336,6 @@ h5 {
   background: white;
 }
 
-.first {
-  animation: bannermove 5s linear infinite;
-}
-
 @keyframes bannermove {
   0% {
     margin-left: 0px;
@@ -350,7 +346,6 @@ h5 {
 }
 
 .ready {
-  
   background-color: #fbdc00;
   margin-bottom: 50px;
   font-size: 20px;
@@ -696,7 +691,7 @@ input {
   border-color: transparent;
 }
 
-.cmp-info {
+.company_information {
   display: flex;
   font-family: "Ubuntu", sans-serif;
   background-color: #fede00;
@@ -751,14 +746,14 @@ b {
   justify-content: space-between;
 }
 
-.cprt {
+.copyright_container {
   font-family: "PT sans", sans-serif;
   font-size: 12px;
   font-weight: bold;
   color: #434343;
 }
 
-.trms {
+.term_and_condition {
   font-family: "PT sans", sans-serif;
   font-size: 12px;
   font-weight: bold;
