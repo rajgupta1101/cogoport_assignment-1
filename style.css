@@ -2,11 +2,15 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
 }
+#homepage_cogoport{
+  margin-left: auto;
+  margin-right: auto;
+}
 .upper_section {
   top: 0;
   left: 0;
   z-index: 100;
-  background-image: url("https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp");
+  background-image: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -156,7 +160,7 @@ li {
   display: inline-block;
   height: 40px;
   padding: 8px 42px;
-  margin-top: 20px;
+  
   font-size: 14px;
   font-weight: 700;
   color: #fff;
@@ -346,7 +350,7 @@ h5 {
 }
 
 .ready {
-  padding: 20px;
+  
   background-color: #fbdc00;
   margin-bottom: 50px;
   font-size: 20px;
